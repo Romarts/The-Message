@@ -1,0 +1,41 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+}
+header{
+  width: 100%; /*largura*/
+  background-color: #FFF; /*cor de fundo*/
+  box-shadow: 1px 1px 10px #ccc; /*sombra*/
+}
+
+.titulo{
+  text-align: center;
+}
+
+header nav{
+  float: right; 
+  margin-top: 30px;
+}
+header nav a{
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+.link-construct{
+  text-decoration: none;
+}
+
+header nav a:hover{
+  color:blue;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.p{
+  margin: 30  px;
+}
