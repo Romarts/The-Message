@@ -35,6 +35,11 @@ header nav a:hover{
   height: 100%;
 
 }
+.galeriaft{
+  width: 20%;
+  height: 20%;
+  margin: 5px;
+}
 
 .p{
   margin: 30  px;
