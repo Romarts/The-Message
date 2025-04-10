@@ -38,7 +38,8 @@ header nav a:hover{
 .galeriaft{
   width: 20%;
   height: 20%;
-  margin: 5px;
+  margin: 10px;
+  float:inline-start;
 }
 
 .p{
