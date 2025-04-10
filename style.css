@@ -11,6 +11,10 @@ header{
 .titulo{
   text-align: center;
 }
+.Botao_SaibaMais{
+  text-align: center;
+  text-decoration: none;
+}
 
 header nav{
   float: right; 
@@ -39,9 +43,53 @@ header nav a:hover{
   width: 20%;
   height: 20%;
   margin: 15px;
+  margin-left: 70px;
   float:center;
 }
 
+.galeriaft2{
+  width: 20%;
+  height: 20%;
+  margin: 15px;
+  float:center;
+  margin-right: 0px;
+}
+
+
 .p{
   margin: 30  px;
+}
+
+@media (max-width: 420px){
+  header{
+    text-align: center;
+    display: inline-block;
+    
+  
+  }
+  header nav{
+    width: 100%;
+  }
+
+  header nav a{
+    margin: 5px;
+  }
+  .botao{
+    text-align: center;
+  }
+  .galeriaft{
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    margin-left: 80px;
+    margin-right: 0px;
+    float:center;
+  }
+  .galeriaft2{
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    float:center;
+    margin-right: 0px;
+  }
 }
