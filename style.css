@@ -1,16 +1,38 @@
 body{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
   margin: 0px;
+  background-image:url("Imagem\ sites/Fundo Site.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
 }
 header{
   width: 100%; /*largura*/
-  background-color: #FFF; /*cor de fundo*/
-  box-shadow: 1px 1px 10px #ccc; /*sombra*/
+  background-color: #6b57005e; /*cor de fundo*/
+  box-shadow: 1px 1px 10px #6b57005e; /*sombra*/
 }
 
 .titulo{
   text-align: center;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,33%);
+  margin:auto;
+}
+
+.grid.coluna{
+  text-align: right;
+}
+
+.grid.coluna{
+  width: 100%;
+} 
+
 .Botao_SaibaMais{
   text-align: center;
   text-decoration: none;
@@ -78,18 +100,18 @@ header nav a:hover{
     text-align: center;
   }
   .galeriaft{
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    margin-left: 80px;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    margin-left: 200px;
     margin-right: 0px;
     float:center;
   }
   .galeriaft2{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 100%;
     margin: 5px;
     float:center;
-    margin-right: 0px;
+    margin-left: 10px;
   }
 }
