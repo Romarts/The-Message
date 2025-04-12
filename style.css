@@ -6,6 +6,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-position: 100%;
 
 
 }
@@ -16,22 +17,20 @@ header{
 }
 
 .titulo{
-  text-align: center;
+  text-align: center; 
 }
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(3,33%);
-  margin:auto;
+  margin: 0px;
+  width: 30%;
+  padding-left: 45px;
 }
 
 .grid.coluna{
   text-align: right;
+  margin: 0%;
 }
-
-.grid.coluna{
-  width: 100%;
-} 
 
 .Botao_SaibaMais{
   text-align: center;
@@ -76,13 +75,30 @@ header nav a:hover{
   float:center;
   margin-right: 0px;
 }
-
-
-.p{
-  margin: 30  px;
+.barrainferior{
+  background-color:#6b57005e;
 }
 
-@media (max-width: 420px){
+.contato{
+  label{
+    margin: Spx 0;
+  }
+  input, textarea{
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+text-align: center;
+}
+
+button{
+  background-color: rgba(160, 149, 1, 0.733);
+  color: aliceblue;
+  padding: 10px 20px;
+}
+
+@media (max-width: 450px) {
   header{
     text-align: center;
     display: inline-block;
@@ -92,7 +108,9 @@ header nav a:hover{
   header nav{
     width: 100%;
   }
-
+.p{
+  margin: auto;
+}
   header nav a{
     margin: 5px;
   }
@@ -114,4 +132,11 @@ header nav a:hover{
     float:center;
     margin-left: 10px;
   }
+  .grid{
+    display: grid;
+    margin:auto;
+    height: 100%;
+    width: auto;
+  }
+
 }
