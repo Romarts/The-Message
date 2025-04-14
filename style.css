@@ -81,16 +81,22 @@ header nav a:hover{
   margin-right: 0px;
 }
 
-.contato{
-  label{
-    margin: Spx 0;
-  }
-  input, textarea{
-    width: 80%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.form-group label {
+  width: 100px;
+  text-align: center;
+}
+
+.form-group input {
+  width: 300px;
+  padding: 8px;
 }
 
   footer{
