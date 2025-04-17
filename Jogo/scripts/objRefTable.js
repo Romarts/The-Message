@@ -46,6 +46,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Cnds.OnLand,
 		C3.Behaviors.Platform.Cnds.OnStop,
 		C3.Plugins.Keyboard.Cnds.OnKey,
+		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Sprite.Cnds.OnDestroyed,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.Text.Acts.SetText,
@@ -99,6 +100,7 @@ self.C3_JsPropNameTable = [
 	{BotaoLadoDir: 0},
 	{Botão: 0},
 	{Áudio: 0},
+	{BOTAOP: 0},
 	{gerachave: 0},
 	{chaves: 0}
 ];
@@ -138,5 +140,6 @@ self.InstanceType = {
 	BotaoPulo: class extends self.ISpriteInstance {},
 	BotaoLadoDir: class extends self.ISpriteInstance {},
 	Botão: class extends self.IButtonInstance {},
-	Áudio: class extends self.IInstance {}
+	Áudio: class extends self.IInstance {},
+	BOTAOP: class extends self.ISpriteInstance {}
 }
